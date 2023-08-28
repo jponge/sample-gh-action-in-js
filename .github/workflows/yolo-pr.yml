@@ -1,0 +1,12 @@
+on:
+  pull_request
+
+jobs:
+  yolo:
+    name: Yolo on PR
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run the action
+      uses: jponge/sample-gh-action-in-js@v1.0.0
+      with:
+        who-to-greet: 'Mr Bean'
