@@ -1,0 +1,10 @@
+name: 'Yolo'
+description: 'Yolo action'
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
